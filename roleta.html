@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="text/css" href="img/Monalisa.jpg">
+  <link rel="stylesheet" type="text/css" href="roleta.css">
+  <link rel="stylesheet" type="text/css" href="estilizacao.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Literasite</title>
+</head>
+<body>
+  <nav id="menu">
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="arcadismo.html">Arcadismo</a>
+        <li><a href="barroco.html">Barroco</a></li>
+        <li><a href="renascentismo.html">Renascentismo</a></li>
+        <li><a href="roleta.html">Roleta</a></li>
+      </ul>
+    </nav>
+    <div id="quadro">
+      <button id="barroco" class="assunto">Barroco</button>
+      <button id="arcadismo" class="assunto  botao-pressionado">Arcadismo</button>
+      <button id="renascimento" class="assunto">Renascimento</button>
+      <aside id="pontos">0/10</aside>
+
+      <div id="pergunta">
+        <br><br><br><br>
+        <p id="enunciado">Enunciado da questão</p>
+        <div>
+          <input type="radio" name="questao" value="0" id="opcao1">
+          <label for="opcao1">Alternativa A</label>
+        </div>
+        <div>
+          <input type="radio" name="questao" value="0" id="opcao2">
+          <label for="opcao2">Alternativa B</label>
+        </div>
+        <div>
+          <input type="radio" name="questao" value="1" id="opcao3">
+          <label for="opcao3">Alternativa C</label>
+        </div>
+        <div>
+          <input type="radio" name="questao" value="0" id="opcao4">
+          <label for="opcao4">Alternativa D</label>
+        </div>
+        <button id="verificar">Verificar</button>
+      </div>
+    </div>
+    <div id="roleta-container">
+      <img id="roleta" src="imgs/roleta.png" alt="">
+      <button id="jogar">Pergunte</button>
+    </div>
+    <script src="roleta.js" charset="utf-8"></script>
+  </body>
+  </html>

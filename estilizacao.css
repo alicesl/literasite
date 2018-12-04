@@ -1,0 +1,156 @@
+body {
+	background-image: url(img/fundo-cinza.png);
+}
+
+html, body
+{
+	min-height: 100%;
+}
+
+#quadro
+{
+	padding-top: 20px;
+	background-color:white;
+	padding-left: 175px;
+	padding-right: 175px;
+	margin: 0 auto;
+	text-align: justify;
+	padding-bottom: 30px;
+	opacity: 0.95;
+	border-radius: 15px;
+}
+#menu ul
+{
+    padding:0px;
+    background-image: linear-gradient(#975314, #ffe3ab);
+    list-style:none;
+    text-align: center;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a
+{
+    padding: 30px 60px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom:3px solid #fff000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#menu ul li a:hover
+{
+  background-image: radial-gradient(#ffffff, #ffe3ab);
+    color:black;
+    border-bottom:3px solid black;
+
+}
+
+#menu:visited
+{
+	color: #828282;
+}
+ul li
+{
+	font-size: 25px;
+	font-family: 'Cinzel', serif;
+}
+img
+{
+    max-width:500px;
+    max-height:500px;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    margin-left: 255px;
+}
+h1, h2, h3{
+	font-family: "Ink Free";
+	/*so tava testando fonte, essa achei maisoumenos*/
+}
+p, li{
+	font-family: "Arial";
+}
+figure {
+  text-align: center;
+  font-style: italic;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+#triunfo{
+	width: 400px;
+	height: 640px;
+	margin-left: 0;
+}
+#criadores{
+	padding-top: 5px;
+	background-color:#ffe3ab;
+	width: 650px;
+	margin: 0 auto;
+	border-style: ridge;
+	border-color: #975314;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: justify;
+	padding-bottom: 5px;
+	opacity: 0.95;
+}
+#criadores p{
+	font-family: "Bahnschrift";
+}
+#balanço{
+		width: 620px;
+		height: 463px;
+		margin-left: 0;
+	}
+#teto{
+			width: 500px;
+			height: 640px;
+			margin-left: 0;
+		}
+a{
+	font-size: 15px;
+}
+button {
+	display: block;
+	font-family: 'Cinzel', serif;
+	font-size: 15px;
+	color: black;
+	padding: 10px 20px;
+	background-color: #ffe3ab;
+	border-radius: 3px;
+	border: 1px solid #000000;
+	float: left;
+	margin-right: 7px;
+
+}
+#verificar{
+	display: block;
+	font-family: 'Cinzel', serif;
+	font-size: 15px;
+	color: black;
+	padding: 10px 20px;
+	background-color: #ffe3ab;
+	border-radius: 3px;
+	border: 1px solid #000000;
+	float: right;
+	margin-right: 7px;
+}
+aside{
+	display: block;
+	font-family: 'Cinzel', serif;
+	font-size: 15px;
+	color: black;
+	padding: 10px 20px;
+	background-color: #ffe3ab;
+	border-radius: 1px;
+	border: 1px solid #000000;
+	float: right;
+	margin-right: 7px;
+	margin-top: -20px;
+	border-top: 0px;
+}
