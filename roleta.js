@@ -58,10 +58,7 @@ function perguntasRecebidas(p)
 {
   perguntas = p;
   botaoEl.addEventListener('click', sorteiaPergunta);
-  for(let i = 0; i <= p; i++)
-  {
-    botaoVerificaEl.addEventListener('click', verificaResposta);
-  }
+  botaoVerificaEl.addEventListener('click', verificaResposta);
 }
 
 function verificaResposta()
