@@ -58,7 +58,10 @@ function perguntasRecebidas(p)
 {
   perguntas = p;
   botaoEl.addEventListener('click', sorteiaPergunta);
-  botaoVerificaEl.addEventListener('click', verificaResposta);
+  for(let i = 0; i <= p; i++)
+  {
+    botaoVerificaEl.addEventListener('click', verificaResposta);
+  }
 }
 
 function verificaResposta()
@@ -75,7 +78,6 @@ function verificaResposta()
     }
     else {
       {
-        pontos++
         event.currentTarget.remove();
         pontosEl.innerHTML = pontos + "/10";
         alert('Que pena, você errou a questão! :(');
